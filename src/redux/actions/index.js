@@ -116,7 +116,7 @@ export const login = (form, setLoading, setResponse) => async () => {
         maxAge: `${60 * 60}`,
       });
     }
-    window.location.href = { REACT_APP_CLIENT_URL };
+    window.location.href =  REACT_APP_CLIENT_URL ;
   } catch (error) {
     console.log(error);
   }
