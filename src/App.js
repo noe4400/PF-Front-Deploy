@@ -77,7 +77,7 @@ function App() {
           path="/login"
           element={userLoginCookies  ? <Navigate to={"/"} /> : <Login />}
         />
-        <Route
+        {/* <Route
           path="/signup"
           element={userLoginCookies  ? <Navigate to={"/"} /> : <Signup />}
         />
@@ -97,7 +97,6 @@ function App() {
         <Route path="/panelUser/perfilUser" element={<PerfilUser />} />
         <Route path="/panelUser/postInfoPerfil/:userId" element={<PostInfoPerfil />} />
         <Route path="/panelUser/ordersUser" element={<OrdersUser />} />
-        {/* <Route path="/panelUser/deleteAddress/:userId/:addressId" element={<DeleteAddress />} /> */}
 
         <Route path="/legalNoticies" element={<LegalNoticies />} />
         <Route path="/privacyStatement" element={<PrivacyStatement />} />
@@ -117,7 +116,7 @@ function App() {
         />
         <Route path="/panelUser/ordersUser" element={<OrdersUser />} />
         <Route path="/panelUser/deleteAccount/:idUser" element={<DeleteAccount />} />
-        <Route path="*" element={<Error />} />
+        <Route path="*" element={<Error />} /> */}
       </Routes>
     </div>
   );
