@@ -194,7 +194,7 @@ export const getUser = (setUser, setOrder) => async () => {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
-        "Access-Control-Allow-Credentials": false,
+        "Access-Control-Allow-Credentials": true,
       },
     });
 
